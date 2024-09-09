@@ -1,0 +1,514 @@
+@media only screen and (max-width: 1200px) {
+    #header .hero h1 {
+        font-size: 50px;
+    }
+    #header{
+        min-height: 100%;
+        width: 100%;
+    }
+    #about_as #body .aboutas-img {
+        margin-left: 100px;
+        min-height: 50%;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+    #about_as {
+        padding: 20px 45px;
+        margin-top: 50px;
+        height: 100%;
+    }
+    #offer {
+        padding: 20px 50px;
+    }
+    #offer #p-text {
+        display: block;
+        text-align: center;
+    }
+    #offer #h1-text {
+        display: block;
+        text-align: center;
+    }
+    #offer .box-holder .box {
+        max-width: 80% !important;
+        margin-bottom: 20px;
+    }
+    .media{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    #why-choose-us .text-holder .texts .wraper h1 {
+        font-size: 17px;
+    }
+    #middeler h1 {
+        font-size: 40px;
+    }
+    #middeler p {
+        font-size: 15px;
+    }
+    #testemonial{
+        padding: 20px 45px;
+    }
+    #testemonial h1 {
+        text-align: center;
+    }
+    #testemonial .testemonail-holder {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+   
+    #testemonial .testemonail-holder .testemonials {
+        height: 100%;
+        display: inline-block;
+    }
+    #testemonial .testemonail-holder .testemonials .arows{
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    #about_as #body .aboutas-p {
+        min-height: 100%;
+        display: inline-block;
+    }
+    #about_as #body .aboutas-p h1{
+        margin: 30px auto;
+    }
+
+    #header .hero p {
+        font-size: 16px;
+    }
+
+    #about_as #body .aboutas-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    #about_as #body .aboutas-p .aboutas-paragraph {
+       margin: 20px auto;
+       font-size: 18px;
+       font-weight: 600;
+    }
+    #about_as #body .aboutas-p .explor {
+        margin: 30px auto;
+    }
+    #about_as #body {
+        display: inline-block;
+        /* flex-direction: column;
+        align-items: center; */
+    }
+
+    #about_as #body .aboutas-p {
+        text-align: center;
+    }
+
+    #offer #h1-text h1 {
+        font-size: 50px;
+    }
+
+    #offer #p-text p {
+        font-size: 18px;
+    }
+
+    #offer .box-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #offer .box-holder .box {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #why-choose-us .text-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why-choose-us .text-holder .texts {
+        text-align: center;
+    }
+
+    #middeler {
+        padding: 20px;
+    }
+
+    #middeler h1 {
+        font-size: 50px;
+    }
+
+    #middeler p {
+        font-size: 18px;
+    }
+
+    #testemonial .testemonail-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #testemonial .testemonail-holder img {
+        width: 300px;
+        height: auto;
+    }
+
+    #testemonial .testemonail-holder .testemonials {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header .hero h1 {
+        font-size: 35px;
+    }
+
+    #header .hero p {
+        font-size: 14px;
+    }
+
+    #about_as #body .aboutas-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    #about_as #body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about_as #body .aboutas-p {
+        text-align: center;
+    }
+
+    #offer #h1-text h1 {
+        font-size: 35px;
+    }
+
+    #offer #p-text p {
+        font-size: 16px;
+    }
+
+    #offer .box-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #offer .box-holder .box {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #why-choose-us .text-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why-choose-us .text-holder .texts {
+        text-align: center;
+    }
+
+    #middeler {
+        padding: 20px;
+    }
+
+    #middeler h1 {
+        font-size: 35px;
+    }
+
+    #middeler p {
+        font-size: 16px;
+    }
+
+    #testemonial .testemonail-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #testemonial .testemonail-holder img {
+        width: 200px;
+        height: auto;
+    }
+
+    #testemonial .testemonail-holder .testemonials {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #header .hero h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #header{
+        padding: 30px;
+    }
+    #header #nav-bars .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: -25vh;
+        right: 0;
+        z-index: 10;
+        background: #082158;
+        width: 100%;
+        height: 25vh;
+        transition: 0.4s;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    }
+    #media-x{
+        position: absolute;
+        font-size: 30px;
+        top: 20px;
+        right:30px;
+        color: #FAFAFA;
+        font-family: monserat;
+        display: inline-block;
+    }
+    #header #nav-bars button {
+        font-size: 13px;
+        border: 1.5px solid #FAFAFA;
+    }
+    #header #nav-bars p {
+        font-size: 30px;
+    }
+    #header .hero {
+        padding: 50px 0px;
+        display: inline-block;
+    }
+    #mobile{
+        display: inline-block;
+    }
+    #header .hero p {
+        font-size: 12px;
+        text-align: center;
+    }
+    #header .hero  div div span {
+        margin: 0px auto;
+    }
+    #about_as{
+        padding: 20px;
+    }
+    #about_as #body .aboutas-img {
+        min-height: 50%;
+        width: 90%;
+        margin: 30px auto;
+    }
+    #about_as #body .aboutas-img img {
+        width: 100%;
+        height: 90%;
+    }
+    #about_as #body .aboutas-p a {
+        width: 200px !important;
+        display: inline-block;
+        font-size: 17px;
+        border: 1.5px solid #2563EB;
+        padding: 12px;
+        margin-top: 13px;
+    }
+    #about_as #body .aboutas-p h1 {
+        font-size: 32px;
+    }
+
+    #about_as #body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about_as #body .aboutas-p {
+        text-align: center;
+    }
+    #about_as #body .aboutas-p div div .text {
+        font-size: 16px;
+    }
+    #offer {
+        padding: 20px 45px;
+    }
+    #offer .buttons{
+        display: inline-block;
+        width: 100%;
+    }
+    #offer .buttons a{
+        display: block;
+        margin: 20px auto;
+        border: 1.5px solid #2563EB;
+        font-size: 17px;
+        width: 260px;
+    }
+    #offer .buttons .explor {
+        border: 1.5px solid #0A0A0B;
+        font-size: 17px;
+        width: 260px;
+    }
+    #offer #h1-text{
+        display: inline-block;
+        text-align: center;
+    }
+    #offer #h1-text h1 {
+        font-size: 35px;
+    }
+    #offer #p-text{
+        display: inline-block;
+        text-align: center;
+    }
+
+    #offer #p-text p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #offer .box-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    #offer .box-holder .box-header {
+        display: block;
+        text-align: center;
+    }
+    #offer .box-holder #box-text {
+        font-size: 12px;
+        margin-left: 0px;
+        text-align: center;
+        /* margin-bottom: 15px; */
+    }
+    #offer .box-holder .box-header h2 {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #offer .box-holder .box-footer .explor {
+        font-family: monseratSemiBold;
+        font-size: 15px;
+    }
+
+    #offer .box-holder .box {
+        max-width: 100% !important;
+        margin-bottom: 20px;
+    }
+    #why-choose-us {
+        padding-bottom: 30px;
+    }
+    #why-choose-us a {
+        width: 200px !important;
+        display: inline-block;
+        font-size: 17px;
+        border: 1.5px solid #2563EB;
+        padding: 12px;
+        margin-top: 13px;
+    }
+    #why-choose-us .text-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why-choose-us .text-holder .texts h1 {
+        font-size: 32px;
+    }
+    #why-choose-us .text-holder .texts p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #why-choose-us .text-holder .texts .wraper{
+        display: inline-block;
+    }
+    #why-choose-us .text-holder .texts .wraper h1 {
+        font-size: 13px;
+    }
+    #why-choose-us .text-holder .texts {
+        text-align: center;
+    }
+
+    #middeler {
+        padding: 40px;
+    }
+
+    #middeler h1 {
+        font-size: 25px;
+    }
+    #middeler button {
+        font-size: 15px;
+    }
+    element.style {
+        margin-top: 15px;
+    }
+    #middeler p {
+        font-size: 14px;
+        /* margin-top: 15px; */
+    }
+    #middeler button {
+        margin-top: 15px;
+        /* margin-top: 15px; */
+    }
+    #testemonial{
+        padding: 30px 45px;
+    }
+    #testemonial a {
+        width: 200px !important;
+        display: inline-block;
+        font-size: 17px;
+        border: 1.5px solid #2563EB;
+        padding: 12px;
+        margin-top: 13px;
+    }
+    #testemonial h1{
+       font-size: 30px;
+    }
+    #testemonial .testemonail-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    #testemonial .testemonail-holder .testemonials p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #testemonial .testemonail-holder .testemonials div .t-name {
+        font-size: 24px;
+    }
+    #testemonial .testemonail-holder .testemonials div p {
+        font-size: 20px;
+    }
+    #testemonial .testemonail-holder .testemonials img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #testemonial .testemonail-holder img {
+        width: 150px;
+        height: auto;
+    }
+
+    #testemonial .testemonail-holder .testemonials {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:360px){
+    #offer .box-holder .box-header h2 {
+        font-size: 18px !important;
+    }
+    #middeler button {
+        font-size: 12px;
+    }
+    #footer .footer-conter .logo-footer p {
+        font-size: 14px;
+    }
+    #footer .footer-conter .h1 h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1280px){
+    #offer .box-holder .box {
+        margin-right: 12px;
+    }
+    #why-choose-us .text-holder {
+        display: block;
+        text-align: center;
+    }
+}

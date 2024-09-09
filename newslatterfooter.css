@@ -1,0 +1,284 @@
+/* news latter section start */
+
+.newsletter-section {
+    background-image: url('./images/newlatterbac.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 50px 45px;
+    margin: 100px 0px;
+}
+
+.newsletter-content {
+    max-width: 50%;
+}
+
+.newsletter-content h2 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: monseratSemiBold;
+}
+
+.newsletter-content p {
+    margin: 10px 0 0;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: monseratLight;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #FAFAFA;
+    background: transparent;
+    outline: none;
+    width: 300px;
+    margin-right: 15px;
+    color: #FAFAFA;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2563EB;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: monseratLight;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+/* end of news latter section */
+
+/* start of footersection */
+#footer{
+    background-image: url('./images/newlatterbac.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 45px;
+    position: relative;
+}
+#footer{
+    margin-top: 200px;
+}
+#footer .footer-conter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15rem; */
+}
+
+#footer .footer-conter .logo-footer{
+    max-width: 46%;
+}
+
+#footer .footer-conter .logo-footer .isc{
+    color: #FCCE2D;
+    font-family:Open,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#footer .footer-conter .logo-footer p{
+    padding: 10px 20px;
+    font-size: 16px;
+    color:  #FAFAFA;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: monseratLight;
+    /* margin-bottom: 15px; */
+}
+#footer .footer-conter .logo-footer img{
+    margin-right: 10px;
+}
+.social-midea{
+    padding: 10px 20px
+}
+
+#footer .footer-conter a{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: monseratLight;
+    color: #FAFAFA;
+    margin: 10px auto;
+    position: relative;
+    text-decoration: none;
+}
+
+#footer .footer-conter li{
+    margin: 10px auto;
+    list-style: none;
+}
+
+#footer .footer-conter .h1 h1{
+    /* padding: 10px 20px; */
+    font-size: 28px;
+    color:  #FAFAFA;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: monseratLight;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#footer .footer-conter .Afillter li{
+    display: flex;
+    align-items: center;
+}
+#footer .footer-conter .Afillter li a{
+    margin: 0px 4px;
+}
+
+#footer .copyright{
+    border-top: 2px solid #FAFAFA;
+    margin: 0px 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .copyright p{
+    font-size: 14px;
+    color:  #FAFAFA;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: monseratSemiBold;
+}
+#footer .copyright p a{
+    font-size: 14px;
+    color:  #FAFAFA;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: monseratSemiBold;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .newsletter-section {
+        padding: 0px;
+        padding: 50px 0px;
+        margin: 100px 0px !important;
+        display: inline-block;
+        text-align: center;
+    }
+    .newsletter-form {
+        display: inline-block;
+    }
+    .newsletter-content h2 {
+        font-size: 32px !important;
+    }
+    .newsletter-content {
+        max-width: 100%;
+    }
+    .newsletter-content p {
+        font-size: 22px !important;
+        margin: 10px auto;
+        
+    }
+    .newsletter-form button {
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .newsletter-form input {
+        padding: 10px;
+        margin: 15px auto;
+        width: 100% !important;
+    }
+    #footer  {
+        padding: 30px 20px;
+    }
+    #footer .footer-conter {
+        margin-bottom: 10px;
+    }
+    #footer .copyright {
+        display: block;
+    }
+    #footer .copyright p {
+        margin-bottom: 10px;
+    }
+    #footer .footer-conter .h1 h1 {
+        /* padding: 10px 20px; */
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .newsletter-section {
+        padding: 20px 0px;
+        margin: 0px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .newsletter-form {
+        display: inline-block;
+    }
+    .newsletter-content h2 {
+        font-size: 56px;
+    }
+    .newsletter-content {
+        max-width: 100%;
+    }
+    .newsletter-content p {
+        font-size: 28px;
+        margin: 10px auto;
+        
+    }
+    .newsletter-form input {
+        padding: 10px;
+        margin: 15px auto;
+        width: 200px;
+    }.newsletter-form button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #2563EB;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-family: monseratLight;
+    }
+    .newsletter-form button {
+        margin-left: 15px;
+    }
+
+    #footer .footer-conter {
+        flex-wrap: wrap;
+    }
+    #footer .footer-conter .logo-footer {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #footer #f-bottom{
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    #footer .footer-conter .h1 h1 {
+        /* padding: 10px 20px; */
+        font-size: 20px !important;
+    }
+    #footer .footer-conter .logo-footer p {
+        font-size: 14px;
+        /* margin-bottom: 15px; */
+    }
+}
